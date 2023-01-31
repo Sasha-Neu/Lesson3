@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/DiceThrower/DiceThrower/bin/Debug/net6.0
+/DiceThrower/DiceThrower/obj
+/DiceThrower/.vs/DiceThrower
+/.vs
