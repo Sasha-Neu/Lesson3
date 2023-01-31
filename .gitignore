@@ -6,3 +6,5 @@
 /DiceThrower/DiceThrower/obj
 /DiceThrower/.vs/DiceThrower
 /.vs
+/DiceThrower/DiceTests/bin/Debug/net6.0
+/DiceThrower/DiceTests/obj

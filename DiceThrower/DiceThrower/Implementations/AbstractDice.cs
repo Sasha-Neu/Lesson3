@@ -23,7 +23,7 @@ namespace DiceThrower.Implementations
 
         protected int GenerateRandomNumber(int maxNumber)
         {
-            return _random.Next(maxNumber + 1);
+            return _random.Next(maxNumber) + 1;
         }
     }
 }

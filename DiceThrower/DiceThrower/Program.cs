@@ -28,6 +28,10 @@ namespace DiceThrower
             {
                 anyDice = new D6();
             }
+            else if (readString == "cheatD20")
+            {
+                anyDice = new LoadedD20();
+            }
             else
             {
                 Console.WriteLine("This die doesn't exist.");
