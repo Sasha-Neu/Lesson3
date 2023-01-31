@@ -9,6 +9,13 @@ namespace DiceThrower.Implementations
 {
     public class AbstractDice : IDice
     {
+        private Random _random;
+
+        public AbstractDice()
+        {
+            _random = new Random();
+        }
+
         public virtual int Throw()
         {
             throw new NotImplementedException();
@@ -16,7 +23,7 @@ namespace DiceThrower.Implementations
 
         protected int GenerateRandomNumber(int maxNumber)
         {
-            return maxNumber;
+            return _random.Next(maxNumber + 1);
         }
     }
 }
