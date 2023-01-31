@@ -13,5 +13,10 @@ namespace DiceThrower.Implementations
         {
             throw new NotImplementedException();
         }
+
+        protected int GenerateRandomNumber(int maxNumber)
+        {
+            return maxNumber;
+        }
     }
 }

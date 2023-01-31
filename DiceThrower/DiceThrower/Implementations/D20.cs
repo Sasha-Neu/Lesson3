@@ -10,7 +10,7 @@ namespace DiceThrower.Implementations
     {
         public override int Throw()
         {
-            return 20;
+            return GenerateRandomNumber(20);
         }
     }
 }
